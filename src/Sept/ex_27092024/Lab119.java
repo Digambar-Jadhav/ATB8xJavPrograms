@@ -10,8 +10,6 @@ public class Lab119 {
         while (age > 18) {
             System.out.println("can vote");
             age++;
-
-
         }
     }
 }
