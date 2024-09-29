@@ -10,9 +10,10 @@ public class Lab090 {
             case 'A':
                 System.out.println("A");
                 break;
-            case 'A'+2:
+            case 'A'+ 2:
                 System.out.println("C");
                 break;
+
 
         }
     }
