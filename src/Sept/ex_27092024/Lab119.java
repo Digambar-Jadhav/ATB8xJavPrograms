@@ -11,5 +11,6 @@ public class Lab119 {
             System.out.println("can vote");
             age++;
         }
+
     }
 }

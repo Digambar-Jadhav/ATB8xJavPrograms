@@ -5,6 +5,7 @@ public class Lab115 {
         //A, B, C
         int i= 0;
         while (i < 0){
+
             System.out.println(i);
             i++;
         }
