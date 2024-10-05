@@ -5,31 +5,42 @@ public class Task_18092024_008 {
         //
        int a = 10;
        long b = a; //implicit casting
+        System.out.println(a);
         long e = 10;
         int f = (int) e;//explicit casting
+        System.out.println(f);
         int c = 20;
-        byte d = (byte)e;
+        byte d = (byte)c;
+        System.out.println(d);
 
         // Type Casting
         //Widening with Implicit and Explicit Type Casting
         byte val = 15;
         int val1 = val;// Valid Implicit catsing
+        System.out.println(val1);
         int val2 = (int)val;//valid expilcit casting
+        System.out.println(val2);
+        //Narrowing with implicit and explicit
+        int value =100;
+        byte value1 = (byte)value;
+        System.out.println(value1);
+        //widening
+        int course = 100;
+        float gst =18.5f;
+        int result = course+(int)gst;
+        System.out.println(result);//118 loss
+        float result1 = (float)course+gst;
+        System.out.println(result1); // 118.5
+        float result2 = course+gst;//implicitely accepting by float over int even both data types have same 32 bit memory
+        System.out.println(result2);//118.5
+
         /*
 
 
-        // Narrowing with implicit and explicit.
-        int value = 200;
-        byte value1 = (byte)value;
-        System.out.println(value1); // loss
 
-        // Widening
-        int course = 100;
-        float gst = 18.5f;
 
-        int result = course+(int)gst;
-        float result1 = (float)course+gst;
-        float res = course+gst; // implicitly accepting by float over int even both have 32 bit memory
+
+
         System.out.println(result); //118 loss
         System.out.println(result1); // 118.5
         System.out.println(res); // 118.5
@@ -52,6 +63,6 @@ public class Task_18092024_008 {
         System.out.println("double implicit:" +result4);
         System.out.println("double explicit:" +result5);
         System.out.println("float explicit:" +result6);
-
+*/
     }
 }
