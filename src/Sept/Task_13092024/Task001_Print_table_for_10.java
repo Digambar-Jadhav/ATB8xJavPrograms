@@ -1,4 +1,4 @@
-package Task013092024;
+package Sept.Task_13092024;
 
 public class Task001_Print_table_for_10 {
     public static void main(String[] args) {
