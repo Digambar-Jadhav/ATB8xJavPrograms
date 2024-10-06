@@ -53,5 +53,6 @@ public class Task_18092024_008 {
         System.out.println("double explicit:" +result6);
         System.out.println("float explicit:" +result7);
 
+
     }
 }
