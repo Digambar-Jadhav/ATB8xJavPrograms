@@ -8,16 +8,15 @@ import java.util.Scanner;
 
 public class Task_25092024_021 {
     public static void main(String[] args) {
-        int number = 0,fact= 1;
-        int i;
-
-        System.out.println("Enter the Number");
+        double num,fact= 1;
         Scanner sc = new Scanner(System.in);
-        number = sc.nextInt();
-        for (i = 1; i <=number; i++) {
-            fact = fact * number;
-            number--;
+        System.out.println("Enter the Number");
+        num = sc.nextInt();
+
+        for (double i = 1; i <=num; i++) {
+            fact = fact * i;
+
         }
-        System.out.println(fact);
+        System.out.println("Factorial of "+ num + " is  "+fact);
     }
 }
