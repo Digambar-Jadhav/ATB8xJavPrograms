@@ -54,6 +54,7 @@ Person(String ID_Proof, String Occupation, String Address){
     void talk(){
     String talk;
     }
+
     // Behavior 3 (Return Type without invoking object)
 public static String eat(String Food, String Drink){
     System.out.println("This is eat method:"+("I had "+Food+" and drank "+Drink));
