@@ -14,6 +14,7 @@ public class Lab124 {
                 ATBStudent amit = new ATBStudent();
                 amit.age  =35;
 
+
                 ATBStudent abhishek = new ATBStudent();
                 abhishek.age = 65;
 
