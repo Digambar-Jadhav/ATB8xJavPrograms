@@ -8,7 +8,6 @@ public class Bank {
         this.currency = currency;
         this.amount = amount;
 
-
     }
 
     public String getCurrency() {
