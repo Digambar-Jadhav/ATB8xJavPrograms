@@ -33,11 +33,5 @@ public class Lab203_ArrayList_Iterate {
             System.out.println(iterator.next());
         }
 
-
-
-
-
-
-
     }
 }
