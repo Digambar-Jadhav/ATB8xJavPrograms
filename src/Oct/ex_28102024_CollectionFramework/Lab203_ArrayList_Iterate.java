@@ -8,9 +8,9 @@ public class Lab203_ArrayList_Iterate {
     public static void main(String[] args) {
 
         List<String> mylist = new ArrayList();
-        mylist.add("Pramod");
-        mylist.add("Amit");
-        mylist.add("Dutta");
+        mylist.add("Digambar");
+        mylist.add("Jadhav");
+        mylist.add("Shri Gurudev Datta");
 
         System.out.println(" - To Print Arraylist - 1 ");
 
