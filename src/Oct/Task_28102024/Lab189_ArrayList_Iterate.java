@@ -19,11 +19,11 @@ public class Lab189_ArrayList_Iterate {
             System.out.println(mylist.get(i));
         }
 
-        System.out.println("--To print ArrayList 3--");
+       /* System.out.println("--To print ArrayList 3--");
         // Iterator
         Iterator<String> iterator = mylist.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
-        }
+        }*/
     }
 }
