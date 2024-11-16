@@ -2,7 +2,7 @@ package Oct.ex_28102024_CollectionFramework;
 
 import java.util.List;
 
-public class Lab198_List {
+public class Array_Practice {
     public static void main(String[] args) {
         // List list  = new List();
         List list = List.of("banana","apple","grapes","orange");
