@@ -1,4 +1,4 @@
-package Oct.Task04102024_001;
+package Oct.Task_04102024;
 
 public class Person {
     // Create a Person Class with 10 A, 5 Behaviour( All types of Methods)
