@@ -11,9 +11,17 @@ public class Task002_StringReverse {
         String str= sc.next();
         String reverse="";
         for(int i=str.length()-1;i>=0;i--){
-            reverse += str.charAt(i);
+            reverse = reverse + str.charAt(i);
         }
         System.out.println("Original string: "+str);
         System.out.println("Reverse string: "+reverse);
+
+        if(str.equals(reverse)){
+            System.out.println("It is Palidrome");
+        }
+        else
+        {
+            System.out.println("It's Not Palindrome");
+        }
     }
 }
