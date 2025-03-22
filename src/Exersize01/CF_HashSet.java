@@ -4,23 +4,23 @@ import java.util.*;
 
 public class CF_HashSet {
     public static void main(String[] args) {
-        Set mylist = new HashSet();
-        mylist.add("Digambar");
-        mylist.add("Anvi");
-        mylist.add("Anvi");
-        mylist.add("Anita");
-        mylist.add("Test");
+        Set myset = new HashSet();
+        myset.add("Digambar");
+        myset.add("Anvi");
+        myset.add("Anvi");
+        myset.add("Anita");
+        myset.add("Test");
         // mylist.add(123);
         // mylist.add(true);
 
 
-        System.out.println(mylist);
-        System.out.println(mylist.size());
+        System.out.println(myset);
+        System.out.println(myset.size());
         //mylist.remove(3);
         //System.out.println(mylist);
         System.out.println("-----------");
 
-        for(Object str : mylist) {
+        for(Object str : myset) {
             System.out.println(str);
         }
         System.out.println("-----------");
@@ -30,7 +30,7 @@ public class CF_HashSet {
             System.out.println(iterator.next());
         }
 
-        System.out.println(mylist);
+        System.out.println(myset);
 
     }
 
