@@ -1,5 +1,6 @@
 package Exersize01;
 
+import java.util.Iterator;
 import java.util.Set;
 import java.util.LinkedHashSet;
 
@@ -14,11 +15,13 @@ public class CF_LinkedHashSet {
         // mylist.add(123);
         // mylist.add(true);
 
-
-        System.out.println(myset);
-        System.out.println(myset.size());
-        // mylist.remove(3);
-        //System.out.println(mylist);
-        System.out.println("-----------");
+        for(Object o:myset){
+            System.out.println(o);
+        }
+        System.out.println("--------");
+        Iterator iterator = myset.iterator();
+        while (iterator.hasNext()){
+            System.out.println(iterator.next());
+        }
     }
 }
