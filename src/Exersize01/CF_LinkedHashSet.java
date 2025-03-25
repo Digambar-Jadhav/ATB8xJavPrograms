@@ -15,11 +15,11 @@ public class CF_LinkedHashSet {
         // mylist.add(123);
         // mylist.add(true);
 
-        for(Object o:myset){
-            System.out.println(o);
+        for(Object str:myset){
+            System.out.println(str);
         }
         System.out.println("--------");
-        Iterator iterator = myset.iterator();
+        Iterator<String> iterator = myset.iterator();
         while (iterator.hasNext()){
             System.out.println(iterator.next());
         }

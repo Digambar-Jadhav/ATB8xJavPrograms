@@ -12,16 +12,14 @@ public class CharacterCountwithMap {
         String input = scanner.nextLine();
         scanner.close();
         Map<Character,Integer> charCountMap= new HashMap<>();
-        for (char ch: input.toCharArray()){
-            charCountMap.put(ch, charCountMap.getOrDefault(ch,0)+1);
+        for (char ch: input.toCharArray())
+        {                                       // String to char conversion
+            charCountMap.put(ch, charCountMap.getOrDefault(ch,0)+1);  //insert char data into MAP
         }
         System.out.println("Character Occurrences: ");
-        for (Map.Entry<Character,Integer> entry: charCountMap.entrySet()) {
-
-            System.out.println(entry.getKey()+" : "+entry.getValue());
-
-
-
+        for (Map.Entry<Character,Integer> entry: charCountMap.entrySet())
+        {      //Iterate over Map
+            System.out.println(entry.getKey()+" : "+entry.getValue());           // Print Key Value Pair
         }
 
     }
