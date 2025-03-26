@@ -11,14 +11,14 @@ public class DuplicateCharacterCountwithMap {
         Map<Character, Integer> charCountMap = new LinkedHashMap<>();
 
         // Populate the map with character frequencies
-        for (char c : chars) {
-            charCountMap.put(c, charCountMap.getOrDefault(c, 0) + 1);
+        for (char ch : chars) {
+            charCountMap.put(ch, charCountMap.getOrDefault(ch, 0) + 1);
         }
 
         // Printing the array after removing duplicates (unique characters)
         System.out.println("Array after removing duplicates:");
         for (Character key : charCountMap.keySet()) {
-            System.out.print(key + " ");
+            System.out.print(key + "  ");//print character with space
         }
     }
 }
