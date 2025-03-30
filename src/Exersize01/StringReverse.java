@@ -10,6 +10,8 @@ public class StringReverse {
         String str = scanner.nextLine();
         scanner.close();
 
+
+
 //        StringBuffer sb = new StringBuffer(input);
 //        String a= String.valueOf(sb.reverse());
 //        System.out.println("Reversed String:"+ " "+ a.toString());
