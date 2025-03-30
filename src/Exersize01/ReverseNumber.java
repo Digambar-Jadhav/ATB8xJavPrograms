@@ -3,17 +3,17 @@ package Exersize01;
 import java.util.Scanner;
 public class ReverseNumber {
     public static void main(String[] args) {
-        int no, rev=0,r;
+        int num, rev=0,r;
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter any number : ");
-        no = scanner.nextInt();
+        num = scanner.nextInt();
 
-        while(no>0)
+        while(num!=0)
         {
-            r = no%10;
+            r = num%10;
             rev = rev*10+r;
-            no=no/10;
+            num=num/10;
         }
-        System.out.println("Reverse : " +rev);
+        System.out.println("Reversed Number is : " +rev);
     }
 }

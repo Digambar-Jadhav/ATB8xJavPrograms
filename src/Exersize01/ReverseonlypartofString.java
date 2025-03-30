@@ -1,6 +1,6 @@
 package Exersize01;
 
-public class Reverseonlylastname {
+public class ReverseonlypartofString {
         public static void main(String[] args) {
             String fullName = "Digambar Jadhav";
 

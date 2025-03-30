@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ReverseStringwithStringBuffer {
 
-         public static void main(String[] args) {
+    public static void main(String[] args) {
         // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
 
@@ -13,15 +13,23 @@ public class ReverseStringwithStringBuffer {
         String input = scanner.nextLine();
 
         // Create a StringBuffer object and initialize it with the input string
-        StringBuffer stringBuffer = new StringBuffer(input);
+        StringBuilder sb = new StringBuilder(input);
 
         // Reverse the string
-        stringBuffer.reverse();
+        sb.reverse();
 
         // Display the reversed string
-        System.out.println("Reversed string: " + stringBuffer.toString());
+        System.out.println("Reversed string: " + sb.toString());
+        if (sb.toString() != input) {
+            System.out.println("Palindrome");
 
-        // Close the scanner
-        scanner.close();
+        } else {
+            System.out.println("Not Palindrome");
+
+        }
+
     }
-}
+
+
+
+    }

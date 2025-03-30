@@ -5,8 +5,8 @@ import java.util.Map;
 
 public class DuplicateCharacterCountwithMap {
     public static void main(String[] args) {
+        //char[] chars = {'a', 'b', 'a', 'c', 'a', 'b', 'd'};
         char[] chars = {'a', 'b', 'a', 'c', 'a', 'b', 'd'};
-
         // Using LinkedHashMap to preserve insertion order
         Map<Character, Integer> charCountMap = new LinkedHashMap<>();
 
