@@ -20,5 +20,6 @@ public class DuplicateCharacterCountwithMap {
         for (Character key : charCountMap.keySet()) {
             System.out.print(key + "  ");//print character with space
         }
+
     }
 }
