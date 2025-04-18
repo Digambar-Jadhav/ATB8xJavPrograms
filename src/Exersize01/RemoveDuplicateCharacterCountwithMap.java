@@ -1,9 +1,10 @@
 package Exersize01;
 
+//import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-public class DuplicateCharacterCountwithMap {
+public class RemoveDuplicateCharacterCountwithMap {
     public static void main(String[] args) {
         //char[] chars = {'a', 'b', 'a', 'c', 'a', 'b', 'd'};
         char[] chars = {'a', 'b', 'a', 'c', 'a', 'b', 'd'};

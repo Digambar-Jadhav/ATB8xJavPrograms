@@ -23,7 +23,13 @@ public class StringReverse {
             nstr = ch+nstr;
 
         }
-        System.out.println(nstr);
+        System.out.println("Reversed String :"+ nstr);
+        if (nstr == str) {
+            System.out.println("Palindrome");
 
+        } else {
+            System.out.println("Not Palindrome");
+
+        }
     }
 }

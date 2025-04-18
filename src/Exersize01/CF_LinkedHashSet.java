@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 
 public class CF_LinkedHashSet {
     public static void main(String[] args) {
-        Set myset = new LinkedHashSet();
+        Set myset = new LinkedHashSet(); //Dynamic dispatch
         myset.add("Digambar");
         myset.add("Anvi");
         myset.add("Anvi");

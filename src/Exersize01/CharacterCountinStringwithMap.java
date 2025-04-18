@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class CharacterCountwithMap {
+public class CharacterCountinStringwithMap {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the String: ");
@@ -23,5 +23,5 @@ public class CharacterCountwithMap {
             System.out.println(entry.getKey()+" : "+entry.getValue());           // Print Key Value Pair
         }
 
-    }
+   }
 }}

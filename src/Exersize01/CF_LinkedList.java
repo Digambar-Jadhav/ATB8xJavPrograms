@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CF_LinkedList {
     public static void main(String[] args) {
-        List mylist = new LinkedList();
+        List mylist = new LinkedList(); //Dynamic dispatch
         mylist.add("Digambar");
         mylist.add("Anvi");
         mylist.add("Anvi");

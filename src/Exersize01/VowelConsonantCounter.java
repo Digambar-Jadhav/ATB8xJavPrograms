@@ -1,3 +1,5 @@
+package Exersize01;
+
 import java.util.Scanner;
 
 public class VowelConsonantCounter {

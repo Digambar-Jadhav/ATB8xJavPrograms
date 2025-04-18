@@ -1,3 +1,5 @@
+package Exersize01;
+
 import java.util.Scanner;
 
 public class FactorialIterative {
@@ -9,7 +11,7 @@ public class FactorialIterative {
 
         long factorial = 1;
         for (int i = 1; i <= num; i++) {
-            factorial *= i;
+            factorial = factorial * i;
         }
 
         System.out.println("Factorial of " + num + " is: " + factorial);

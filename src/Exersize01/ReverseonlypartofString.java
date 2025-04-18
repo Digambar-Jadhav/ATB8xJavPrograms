@@ -5,7 +5,7 @@ public class ReverseonlypartofString {
             String fullName = "Digambar Jadhav";
 
             // Split the name into first and last name
-            String[] parts = fullName.split(" ");
+            String[] parts = fullName.split(" ");    //use [] to store it in array
             String firstName = parts[0];
             String lastName = parts[1];
 

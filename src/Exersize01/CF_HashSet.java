@@ -4,7 +4,7 @@ import java.util.*;
 
 public class CF_HashSet {
     public static void main(String[] args) {
-        Set myset = new HashSet();
+        Set myset = new HashSet(); //Dynamic dispatch
         myset.add("Digambar");
         myset.add("Anvi");
         myset.add("Anvi");

@@ -1,3 +1,5 @@
+package Exersize01;
+
 import java.util.Scanner;
 
 public class PrimeCheck {
@@ -8,9 +10,12 @@ public class PrimeCheck {
 
         boolean isPrime = true;
 
-        if (num <= 1) {
+        if (num <= 1)                   // check for 0 or negative numbers
+        {
             isPrime = false;
-        } else {
+        }
+        else
+        {
             for (int i = 2; i <= Math.sqrt(num); i++) {
                 if (num % i == 0) {
                     isPrime = false;
@@ -25,6 +30,6 @@ public class PrimeCheck {
             System.out.println(num + " is not a prime number.");
         }
 
-        scanner.close();
+
     }
 }

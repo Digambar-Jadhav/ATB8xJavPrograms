@@ -6,7 +6,7 @@ import java.util.List;
 
 public class CF_ArrayList {
     public static void main(String[] args) {
-        List mylist = new ArrayList();
+        List mylist = new ArrayList();   //Dynamic dispatch
         mylist.add("Digambar");
         mylist.add("Anvi");
         mylist.add("Anvi");

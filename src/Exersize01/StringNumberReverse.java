@@ -5,18 +5,16 @@ import java.util.Scanner;
 public class StringNumberReverse {
 
     // Method to reverse a string
-    //public static String reverseString(String input) {
-    //   return new StringBuilder(input).reverse().toString();
 
     public static String reverseString(String input) {
         return new StringBuilder(input).reverse().toString();
 }
 //    // Method to reverse a number
 
-        public static int reverseNumber (int num){
-        int rev = 0;
+        public static int reverseNumber(int num){
+        int rev = 0, r;
         while (num!= 0) {
-            int r = num % 10;
+            r = num % 10;
             rev = rev * 10 + r;
             num = num / 10;
         }
