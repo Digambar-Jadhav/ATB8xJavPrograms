@@ -37,7 +37,7 @@ public static void main(String[] args) {
         System.out.println("Reversed String: " + reverseString(input));
     }
 
-    scanner.close();
+    //scanner.close();
 }
 }
 

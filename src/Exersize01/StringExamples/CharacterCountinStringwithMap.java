@@ -19,6 +19,8 @@ public class CharacterCountinStringwithMap {
         System.out.println("Character Occurrences: ");
         for (Map.Entry<Character,Integer> entry: charCountMap.entrySet())
         {      //Iterate over Map
+           // if (entry.getValue()>0) //to print all char
+            //if (entry.getValue()==1) //to print unique char
             if(entry.getValue()>1){           // to find duplicates
             System.out.println(entry.getKey()+" : "+entry.getValue());           // Print Key Value Pair
         }

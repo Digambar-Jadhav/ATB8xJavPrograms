@@ -1,3 +1,5 @@
+package Exersize01;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -16,7 +18,7 @@ public class UniqueCharacters {
         // Print characters with count == 1
         System.out.print("Unique characters: ");
         for (Map.Entry<Character, Integer> entry : charCount.entrySet()) {
-            if (entry.getValue() == 1) {
+            if (entry.getValue()==1) {
                 System.out.print(entry.getKey() + " ");
             }
         }

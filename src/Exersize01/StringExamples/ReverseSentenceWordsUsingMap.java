@@ -1,10 +1,12 @@
+package Exersize01;
+
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
 public class ReverseSentenceWordsUsingMap {
     public static void main(String[] args) {
-        String sentence = "I am java developer";
+        String sentence = "one apple a keeps doctor away";
         String[] words = sentence.split(" ");
 
         // Store words with their index in a LinkedHashMap

@@ -17,10 +17,13 @@ public class RemoveDuplicateCharacterCountwithMap {
         }
 
         // Printing the array after removing duplicates (unique characters)
-        System.out.println("Array after removing duplicates:");
-        for (Character key : charCountMap.keySet()) {
-            System.out.print(key + "  ");//print character with space
+        System.out.println("Char Occurrences:");
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
+            if (entry.getValue()>0){ //to print remove dup char
+            //if (entry.getValue()==1){ //to print unique char
+            //if(entry.getValue()>1){
+                System.out.print(entry.getKey()+" ");
+            }
         }
-
     }
 }
