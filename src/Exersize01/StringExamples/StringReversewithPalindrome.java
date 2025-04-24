@@ -1,6 +1,5 @@
-package Exersize01;
+package Exersize01.StringExamples;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class StringReverse {
@@ -24,11 +23,12 @@ public class StringReverse {
 
         }
         System.out.println("Reversed String :"+ nstr);
-        if (nstr == str) {
-            System.out.println("Palindrome");
+        if (nstr.equals(str)) {
 
-        } else {
             System.out.println("Not Palindrome");
+        } else {
+
+            System.out.println("Palindrome");
 
         }
     }
