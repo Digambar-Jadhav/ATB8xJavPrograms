@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.Collections;
 
 import java.util.*;
 

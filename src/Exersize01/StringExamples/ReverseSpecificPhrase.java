@@ -1,3 +1,5 @@
+package Exersize01.StringExamples;
+
 public class ReverseSpecificPhrase {
     public static void main(String[] args) {
         String input = "I am java developer";
@@ -7,7 +9,7 @@ public class ReverseSpecificPhrase {
             // Reverse the target phrase
             String reversed = new StringBuilder(target).reverse().toString();
             // Replace only the first occurrence
-            input = input.replaceFirst(target, reversed);
+            input = input.replaceFirst(target,reversed);
         }
 
         System.out.println(input);

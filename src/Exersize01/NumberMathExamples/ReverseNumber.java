@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.NumberMathExamples;
 
 import java.util.Scanner;
 public class ReverseNumber {

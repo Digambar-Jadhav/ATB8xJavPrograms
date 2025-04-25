@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.NumberMathExamples;
 //Swap two number without using third variable
 public class SwapTwoNum {
     public static void main(String[] args) {

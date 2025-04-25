@@ -2,20 +2,14 @@ package Exersize01.StringExamples;
 
 import java.util.Scanner;
 
-public class StringReverse {
+public class StringReversewithPalindrome {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the String: ");
         String str = scanner.nextLine();
         scanner.close();
-
-
-
-//        StringBuffer sb = new StringBuffer(input);
-//        String a= String.valueOf(sb.reverse());
-//        System.out.println("Reversed String:"+ " "+ a.toString());
-         String nstr = " ";
-         char ch=0;
+        String nstr = " ";
+        char ch=0;
 
         for (int i = 0; i < str.length(); i++) {
             ch = str.charAt(i);
@@ -23,13 +17,11 @@ public class StringReverse {
 
         }
         System.out.println("Reversed String :"+ nstr);
-        if (nstr.equals(str)) {
-
-            System.out.println("Not Palindrome");
-        } else {
+        if (!nstr.equals(str)) {
 
             System.out.println("Palindrome");
-
+        } else {
+            System.out.println("Not Palindrome");
         }
     }
 }

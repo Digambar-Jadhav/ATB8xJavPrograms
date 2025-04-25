@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.StringExamples;
 
 import java.util.Scanner;
 
@@ -9,14 +9,14 @@ public class ReverseStringwithStringBuffer {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
 
-        StringBuilder sb = new StringBuilder(input);
-        sb.reverse().toString();
+        StringBuilder result = new StringBuilder(input);
+        result.reverse().toString();
 
         // Display the reversed string
-        System.out.println("Reversed string: " + sb);
+        System.out.println("Reversed string: " + result);
 
 
-        if (sb.equals(input)) {
+        if (result.equals(input)) {
             System.out.println("Palindrome");
 
         } else {

@@ -1,3 +1,5 @@
+package Exersize01.StringExamples;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -8,16 +10,11 @@ public class WordCounter {
 
         // Convert the string to lowercase and split it into words
         String[] words = input.toLowerCase().split("\\s+");
-
-        // Use a HashMap to store word counts
-        Map<String, Integer> wordCount = new HashMap<>();
-
+        Map<String, Integer> wordMap = new HashMap<>();
         for (String word : words) {
-            wordCount.put(word, wordCount.getOrDefault(word, 0) + 1);
+            wordMap.put(word, wordMap.getOrDefault(word, 0) + 1);
         }
-
-        // Print the word counts
-        for (Map.Entry<String, Integer> entry : wordCount.entrySet()) {
+        for (Map.Entry<String, Integer> entry : wordMap.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
     }

@@ -1,26 +1,19 @@
-package Exersize01;
+package Exersize01.StringExamples;
 
 import java.util.Scanner;
 
 public class VowelConsonantCounter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
-        // Input from user
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-
+        input = input.toLowerCase();                                  // Convert string to lowercase for easier comparison
         int vowelCount = 0;
         int consonantCount = 0;
-
-        // Convert string to lowercase for easier comparison
-        input = input.toLowerCase();
-
+        //extract char
         for (int i = 0; i < input.length(); i++) {
             char ch = input.charAt(i);
-
-            // Check if character is a letter
-            if (Character.isLetter(ch)) {
+            if (Character.isLetter(ch)) { //use Character Wrapper Class                // Check if character is a letter
                 if (isVowel(ch)) {
                     vowelCount++;
                 } else {
@@ -34,7 +27,8 @@ public class VowelConsonantCounter {
     }
 
     // Helper method to check for vowels
-    public static boolean isVowel(char ch) {
+    public static boolean isVowel(char ch)
+    {
         return ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u';
     }
 }

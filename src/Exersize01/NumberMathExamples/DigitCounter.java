@@ -1,3 +1,5 @@
+package Exersize01.NumberMathExamples;
+
 import java.util.Scanner;
 
 public class DigitCounter {
@@ -26,7 +28,7 @@ public class DigitCounter {
 
         int count = 0;
         while (num != 0) {
-            num /= 10;
+            num =num/ 10;
             count++;
         }
         return count;

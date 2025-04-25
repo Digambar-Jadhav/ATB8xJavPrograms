@@ -1,4 +1,4 @@
-package Exersize01.StringExamples;
+package Exersize01.StringOptional;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.StringExamples;
 
 public class ReverseonlypartofString {
         public static void main(String[] args) {

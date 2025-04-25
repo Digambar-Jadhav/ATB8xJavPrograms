@@ -1,4 +1,4 @@
-package Exersize01;
+package Exersize01.StringExamples;
 
 import java.util.Scanner;
 
@@ -28,12 +28,13 @@ public static void main(String[] args) {
 
     // Check if input is a number
 
-    if(input.matches("-?\\d+")){
+    if(input.matches("-?\\d+"))
+    {
         int number = Integer.parseInt(input);
-
-
         System.out.println("Reversed Number: " + reverseNumber(number));
-    } else {
+    }
+        else
+    {
         System.out.println("Reversed String: " + reverseString(input));
     }
 
