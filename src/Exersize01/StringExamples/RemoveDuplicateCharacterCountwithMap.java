@@ -9,7 +9,7 @@ public class RemoveDuplicateCharacterCountwithMap {
 
         char[] chars = {'a', 'b', 'a', 'c', 'a', 'b', 'd'};
         // Using LinkedHashMap to preserve insertion order
-        Map<Character, Integer> charCountMap = new HashMap<>();
+        Map<Character, Integer> charCountMap = new LinkedHashMap<>();
 
         // Populate the map with character frequencies
         for (char ch : chars) {

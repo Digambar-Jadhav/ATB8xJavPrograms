@@ -18,12 +18,10 @@ public class ReverseWordsUsingMap {
         StringBuilder result = new StringBuilder();
         for (String word : words) {
 
-            result.append(wordMap.get(word));
-            result.append(" ");
-            //result.toString().trim();
+            result.append(wordMap.get(word)).append(" ");
         }
 
         System.out.println("Original String       : " + input);
-        System.out.println("Reversed Words String : " + result);
+        System.out.println("Reversed Words String : " + result.toString().trim());
     }
 }
