@@ -14,18 +14,5 @@ public class ReverseStringwithStringBuffer {
 
         // Display the reversed string
         System.out.println("Reversed string: " + result);
-
-
-        if (result.equals(input)) {
-            System.out.println("Palindrome");
-
-        } else {
-            System.out.println("Not Palindrome");
-
-        }
-
     }
-
-
-
-    }
+}
