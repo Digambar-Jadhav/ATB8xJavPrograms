@@ -10,12 +10,16 @@ package Exersize01.StringExamples;
             for (char ch : input.toCharArray()) {
                 if (Character.isUpperCase(ch)) {
                     upper++;
+                    //System.out.println(ch);
                 } else if (Character.isLowerCase(ch)) {
                     lower++;
+                    //System.out.println(ch);
                 } else if (Character.isDigit(ch)) {
                     digit++;
+                    //System.out.println(ch);
                 } else {
                     special++;
+                   // System.out.println(ch);
                 }
             }
 
@@ -25,4 +29,3 @@ package Exersize01.StringExamples;
             System.out.println("Special characters: " + special);
         }
     }
-}

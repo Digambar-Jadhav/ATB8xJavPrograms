@@ -17,7 +17,7 @@ public class CharacterCountWithoutMap {
         }
 
         System.out.println("Character occurrences:");
-        for (int i = 0; i <= charCounts.length; i++) {
+        for (int i = 0; i <= charCounts.length-1; i++) {
                   if (charCounts[i] > 0){                                  //if (charCounts[i] ==0){ //to print all char
                 System.out.println((char) i + " : " + charCounts[i]);        //if (charCounts[i] > 1){ //to print duplicate char
             }

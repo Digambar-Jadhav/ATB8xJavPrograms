@@ -11,8 +11,9 @@ public class VowelConsonantCounter {
         int vowelCount = 0;
         int consonantCount = 0;
         //extract char
+        //for(char ch:input.toCharArray()){
         for (int i = 0; i < input.length(); i++) {
-            char ch = input.charAt(i);
+            char ch = input.charAt(i); //extract character
             if (Character.isLetter(ch)) { //use Character Wrapper Class                // Check if character is a letter
                 if (isVowel(ch)) {
                     vowelCount++;

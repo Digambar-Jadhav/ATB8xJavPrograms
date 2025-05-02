@@ -17,12 +17,14 @@ public class DigitCounter {
 
     public static int countDigits(long num) {
         // Handle negative numbers
-        if (num < 0) {
+        if (num < 0)
+        {
             num = -num;
         }
 
         // Handle case where number is 0
-        if (num == 0) {
+        if (num == 0)
+        {
             return 1;
         }
 

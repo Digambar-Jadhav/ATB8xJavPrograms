@@ -3,8 +3,7 @@ public class SumofDigits {
     public static void main(String[] args) {
         int number = 12345;
         int sumOfDigits = calculateSumOfDigits(number);
-        System.out.println("Sum of digits of " + number + " is: " +
-                sumOfDigits);
+        System.out.println("Sum of digits of " + number + " is: " + sumOfDigits);
     }
     public static int calculateSumOfDigits(int number) {
         int sum = 0;

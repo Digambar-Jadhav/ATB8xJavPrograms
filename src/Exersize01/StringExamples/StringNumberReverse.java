@@ -30,15 +30,15 @@ public static void main(String[] args) {
 
     if(input.matches("-?\\d+"))
     {
-        int number = Integer.parseInt(input);
-        System.out.println("Reversed Number: " + reverseNumber(number));
+        int num = Integer.parseInt(input);
+        System.out.println("Reversed Number: " + reverseNumber(num));
     }
         else
     {
         System.out.println("Reversed String: " + reverseString(input));
     }
 
-    //scanner.close();
+    scanner.close();
 }
 }
 

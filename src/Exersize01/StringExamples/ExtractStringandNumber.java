@@ -7,10 +7,10 @@ public class ExtractStringandNumber {
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         System.out.println("Original String is: "+ input);
-        separateAlphaAndNumeric(input);
-    }
-    public static void separateAlphaAndNumeric(String input)
-    {
+        //separateAlphaAndNumeric(input);
+//    }
+//    public static void separateAlphaAndNumeric(String input)
+//    {
         StringBuilder alphaPart = new StringBuilder();
         StringBuilder numericPart = new StringBuilder();
         for(char ch : input.toCharArray())

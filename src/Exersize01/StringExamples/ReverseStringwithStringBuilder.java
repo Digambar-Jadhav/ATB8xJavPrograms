@@ -2,7 +2,7 @@ package Exersize01.StringExamples;
 
 import java.util.Scanner;
 
-public class ReverseStringwithStringBuffer {
+public class ReverseStringwithStringBuilder {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

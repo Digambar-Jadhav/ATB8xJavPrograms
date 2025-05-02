@@ -1,17 +1,15 @@
-package Exersize01.StringExamples;//Java program to gives two Output:
+package Exersize01.StringExamples;
+        //Java program to gives two Output:
        // “abcde”, “ABCDE” for the Input
        // String Str = “aBACbcEDed”
 import java.util.Scanner;
-public class Main {
+public class ExtractLowercaseandUpperCase {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
         System.out.println("Original String is: " + input);
-        separateCharacters(input);
-    }
-
-    public static void separateCharacters(String input) {
+//public static void separateCharacters(String input) {
         StringBuilder lowerCase = new StringBuilder();
         StringBuilder upperCase = new StringBuilder();
         for (char ch : input.toCharArray()) {

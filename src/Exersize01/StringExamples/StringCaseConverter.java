@@ -1,3 +1,5 @@
+package Exersize01.StringExamples;
+
 public class StringCaseConverter {
     public static void main(String[] args) {
         String input = "tEsTnG";
@@ -7,14 +9,20 @@ public class StringCaseConverter {
 
     public static String convertCasePositionally(String input) {
         StringBuilder result = new StringBuilder();
-        for (char ch : input.toCharArray()) {
-            if (Character.isUpperCase(ch)) {
+        for (char ch : input.toCharArray())
+        {
+            if (Character.isUpperCase(ch))
+            {
                 result.append(Character.toLowerCase(ch));
-            } else if (Character.isLowerCase(ch)) {
-                result.append(Character.toUpperCase(ch));
-            } else {
-                result.append(ch); // Keep non-alphabet characters unchanged
             }
+                else if (Character.isLowerCase(ch))
+            {
+                result.append(Character.toUpperCase(ch));
+            }
+                else
+                {
+                result.append(ch); // Keep non-alphabet characters unchanged
+                }
         }
         return result.toString();
     }

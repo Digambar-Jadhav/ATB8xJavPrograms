@@ -9,19 +9,19 @@ public class StringReversewithPalindrome {
         String str = scanner.nextLine();
         scanner.close();
         String nstr = " ";
-        char ch=0;
+
 
         for (int i = 0; i < str.length(); i++) {
-            ch = str.charAt(i);
+            char ch = str.charAt(i);
             nstr = ch+nstr;
 
         }
         System.out.println("Reversed String :"+ nstr);
-        if (!nstr.equals(str)) {
-
-            System.out.println("Palindrome");
-        } else {
+        if (nstr.equals(str)) {
             System.out.println("Not Palindrome");
+        } else {
+            System.out.println("Palindrome");
         }
+
     }
 }
