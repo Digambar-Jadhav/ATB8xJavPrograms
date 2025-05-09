@@ -1,27 +1,41 @@
-package Exersize01.StringExamples;
+package Exersize01.StringExamples;// Java Program to Check if a 
+// String is a Palindrome
+import java.io.*;
 
-import java.util.Scanner;
+public class Geeks
+{
 
-public class StringReversewithPalindrome {
+    // Method to check if a string is a palindrome
+    public static boolean isPalindrome(String s) {
+
+        // Convert string to lowercase for 
+        // case-insensitive comparison
+        s = s.toLowerCase();
+
+        // Reverse the string
+        String rev = "";
+        for (int i = s.length() - 1; i >= 0; i--) {
+            rev = rev + s.charAt(i);
+        }
+
+        // Compare the original string with 
+        // the reversed string
+        return s.equals(rev);
+    }
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter the String: ");
-        String str = scanner.nextLine();
-        scanner.close();
-        String nstr = " ";
 
+        // Input string
+        String s = "level";
 
-        for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
-            nstr = ch+nstr;
+        // Check if the string is a palindrome
+        boolean res = isPalindrome(s);
 
-        }
-        System.out.println("Reversed String :"+ nstr);
-        if (nstr.equals(str)) {
-            System.out.println("Not Palindrome");
+        // Print the result with enhanced output
+        if (res) {
+            System.out.println('"' + s + '"' + " is a palindrome.");
         } else {
-            System.out.println("Palindrome");
+            System.out.println('"' + s + '"' + " is not a palindrome.");
         }
-
     }
 }
